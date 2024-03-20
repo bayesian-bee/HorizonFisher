@@ -182,6 +182,7 @@ The above can be enabled by setting the `<enabled>` tag under the `<dry_detectio
 
 0.8.3
 * Updated readme
+* Three-eyed fish fix
 
 0.8.2
 * Updated addon author.

@@ -22,7 +22,7 @@ along with fisher.  If not, see <https://www.gnu.org/licenses/>.
 _addon.name = 'HorizonFisher'
 _addon.author = 'Bee (original addon written by Seth VanHeulen)'
 _addon.description = 'HorizonXI fishing bot.'
-_addon.version = '0.8.2'
+_addon.version = '0.8.3'
 _addon.commands = {'horizonfisher', 'hf'}
 
 -- built-in libraries
@@ -766,7 +766,7 @@ windower.register_event('incoming chunk', function (id, original)
         end
         session.player_status = player_status
     elseif id == 0x115 then
-		--Stamina, arrow duration, regen, arrow delay, fish attack, miss regen, delay, size (1=big), special
+		--Stamina, arrow duration, regen, arrow frequency/delay, fish attack, miss regen, delay, size (1=big), special
         local fishing_parameters = {string.unpack(original, 'HHHHHHHHI', 5)}
         message(string.format('params: ' .. table.concat(fishing_parameters, ', ')), MESSAGE_DEBUG)
         if check_equipment() then

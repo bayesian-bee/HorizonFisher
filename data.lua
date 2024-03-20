@@ -159,7 +159,7 @@ data.item_fishing_parameters = {
     {name='ca cuong', id=5474, stamina=57, arrow_duration=10, arrow_frequency=8, stamina_depletion=17},
     {name='jungle catfish', id=4307, stamina=58, arrow_duration=7, arrow_frequency=12, stamina_depletion=26, size=1},
     {name='gavial fish', id=4477, stamina=58, arrow_duration=15, arrow_frequency=15, stamina_depletion=30, size=1},
-    {name='three-eyed fish', id=4478, stamina=58, arrow_duration=11, arrow_frequency=9, stamina_depletion=22, size=1},
+    {name='three-eyed fish', id=4478, stamina=57, arrow_duration=11, arrow_frequency=10, stamina_depletion=22, size=1},
     {name='pirarucu', id=5470, stamina=58, arrow_duration=15, arrow_frequency=4, stamina_depletion=24, size=1, legendary=1},
     {name='bloodblotch', id=5951, stamina=59, arrow_duration=7, arrow_frequency=10, stamina_depletion=35, size=1},
     {name='garpike', id=5472, stamina=59, arrow_duration=5, arrow_frequency=11, stamina_depletion=24},
